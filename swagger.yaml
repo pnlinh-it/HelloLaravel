@@ -1,0 +1,21 @@
+swagger: "2.0"
+info:
+  version: "awd"
+  title: "awdawd"
+  license:
+    name: "awdawd"
+schemes:
+  - "http"
+  - "https"
+host: "api.keyontravel.com"
+basePath: "/v1"
+paths:
+  /orders:
+    get:
+      tags:
+        - "orders"
+      summary:
+      operationId:
+      parameters:
+        - $ref: 'test.yaml'
+      responses:

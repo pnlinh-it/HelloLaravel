@@ -1,0 +1,45 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Invoice Ninja APIsădaw",
+        "description": "An open-source invoicing and time-tracking app built with Laravel",
+        "termsOfService": "",
+        "contact": {
+            "email": "contact@invoiceninja.com"
+        },
+        "license": {
+            "name": "Attribution Assurance License",
+            "url": "https://raw.githubusercontent.com/invoiceninja/invoiceninja/master/LICENSE"
+        },
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/clients/{client_id}": {
+            "get": {
+                "tags": [
+                    "client"
+                ],
+                "summary": "Retrieve a client",
+                "operationId": "getClient",
+                "parameters": [
+                    {
+                        "name": "client_id",
+                        "in": "query",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "A single client"
+                    },
+                    "default": {
+                        "description": "an \"unexpected\" error"
+                    }
+                }
+            }
+        }
+    }
+}

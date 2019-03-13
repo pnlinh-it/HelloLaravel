@@ -1,0 +1,1 @@
+mklink /d C:\xampp\htdocs\HelloLaravel\public\avatars C:\xampp\htdocs\HelloLaravel\storage\app\avatars
