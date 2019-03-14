@@ -3,7 +3,7 @@
 /**
  * @OA\Info(
  *         version="1.0.0",
- *         title="Invoice Ninja APIsădaw",
+ *         title="Invoice Ninja API",
  *         description="An open-source invoicing and time-tracking app built with Laravel",
  *         termsOfService="",
  *         @OA\Contact(

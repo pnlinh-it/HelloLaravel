@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="21e9a2aa-0567-49f7-88eb-0e7f6dc430a7" name="pnLinh Server" url="http://13.228.6.128">
+        <fileTransfer host="13.228.6.128" port="22" privateKey="D:\pnlinh-singapore-private-222.ppk" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
